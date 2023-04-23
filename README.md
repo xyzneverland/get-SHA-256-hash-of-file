@@ -1,7 +1,7 @@
-#Get SHA-256 Hash of File
+# Get SHA-256 Hash of File
 The purpose of this script is to calculate the SHA-256 hash value of a specified file and print it to the console. The script first prompts the user to enter the file name and checks if the file exists in the current directory. If the file is found, the script reads the contents of the file using the read_file() function and calculates its SHA-256 hash value. Finally, the script prints the hash value to the console and waits for 10 seconds before closing.
 
-Usage
+# Usage
 To use this script, you need to have Python 3.x installed on your computer. You can download and install the latest version of Python from the [official Python website](https://www.python.org/downloads/).
 
 Download the get-SHA-256-hash-of-file.py file from this repository and save it to a directory of your choice.
@@ -18,7 +18,7 @@ The console window will remain open for 10 seconds before closing.
 
 It is important to note that the script can only find the file if it is located in the same directory as the script, or if you provide the complete file path when prompted.
 
-How it Works
+# How it Works
 The script works by first importing the necessary modules, including hashlib, os, and time. The hashlib module is used to calculate the SHA-256 hash value of the file, the os module is used to search for the file, and the time module is used to pause the script before closing the window.
 
 The script defines the read_file() function, which is used to read the contents of the file in binary mode. The function takes the file name as a parameter, opens the file in binary read mode, reads the contents of the file, and returns the binary data.
